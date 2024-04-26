@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/809a67208c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+
+    <div class="contianer">
+        <h2>registration form </h2>
+        <form class="form" action="">
+            <div class="forme-conten">
+                <!-- left side -->
+                <div class="form-left">
+                    <div class="input-cont mg">
+                        <label for="name">first name</label>
+                         <input  type="text" name="name" id="name">
+                         <i class="fa-solid fa-circle-check" style="color: #84f056;"></i>
+                         <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                         <p class="errer"></p>
+                         
+                    </div>
+                    <div class="input-cont mg">
+                        <label for="brithday">birthday</label>
+                        <input type="date" name="briday" id="brithday">
+                        <p class="errer"></p>
+                         
+                    </div>
+                    <div class="input-cont mg">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email">
+                        <i class="fa-solid fa-circle-check" style="color: #84f056;"></i>
+                        <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                        <p class="errer"></p>
+                    </div>
+                </div>
+                <!-- right side -->
+                <div class="forme-right">
+                    <div class="input-cont">
+                        <label for="last">last name</label>
+                        <input class = "" type="text" name="last" id="last">
+                        <i class="fa-solid fa-circle-check" style="color: #84f056;"></i>
+                        <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                        <p class="errer"></p>
+                    </div>
+                    <div class="input-cont ckeck">
+                        <p>gender</p>
+                        <div><input type="checkbox" id="male">
+                            <label for="male">male</label></div>
+                       <div> <input type="checkbox"  id="female">
+                        <label for="female">female</label></div>
+                        
+                    </div>
+                    <div class="input-cont">
+                        <label for="phone">phone number</label>
+                        <input type="text" id="phone" width="10">
+                        <i class="fa-solid fa-circle-check" style="color: #84f056;"></i>
+                        <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                        <p class="errer"></p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- bottom side -->
+            <div class="form-subject">
+                <div class="input-cont">
+                    <label for="sub">subject</label>
+                    <input type="text" placeholder="choose option" id="sub"> 
+                    <i class="fa-solid fa-circle-check" style="color: #84f056;"></i>
+                    <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>  
+                    <p class="errer"></p> 
+                </div>
+                <input type="submit" class="btn" value="submit">
+            </div>
+        </form>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
